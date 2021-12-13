@@ -1,0 +1,21 @@
+<section class="footer-contact-area section_padding_100 clearfix" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 mx-auto">
+        <div class="logo mb-3">
+          <div class="col-md-12 text-center">
+            <h2 class="purple mt-40">تعديل الملف</h2>
+          </div>
+        </div>
+
+<form action="/books/<%= book.id %>?_method=PUT" method="POST">
+  <%- include('_form_fields') %>
+  <div class="form-row form-row-end btn-row">
+    <a class="btn submit-btn" href="/books/<%= book.id %>">إلغاء</a>
+    <button class="btn submit-btn" type="submit">تعديل</button>
+  </div>
+</form>
+</div>
+</div>
+</div>
+</section>

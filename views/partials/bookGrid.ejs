@@ -1,0 +1,44 @@
+<div dir="rtl">
+  <section class="special-area bg-white section_padding_100" id="about">
+<div class="container">
+<div class="row">
+<div class="col-12">
+
+<div class="section-heading text-center">
+<h2>التصاميم</h2>
+<div class="line-shape"></div>
+</div>
+</div>
+</div>
+<div class="row">
+
+<% books.forEach(book => { %>
+  <div class="col-12 col-md-4">
+  <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+  <div class="single-icon">
+     <i class="ti-user" aria-hidden="true"></i>
+
+     <p>باقة المنتج </p>
+     <h4><%= book.title %></h4>
+
+
+  </div>
+
+  <a href="/books/<%= book.id %>">
+  <img width="100px" height="100px" class="" src="<%= book.coverImagePath %>">
+  </a>
+  <p> السعر </p>
+    <h4> <%= book.pageCount %> ر.س. </h4>
+<br />
+  <div style="" class="btn submit-btn">
+ <a href="" style="size:12; color:white; valign: center">اشتري الان</a>
+</div>
+
+
+</div>
+</div>
+<% }) %>
+</div>
+</div>
+</section>
+</div>

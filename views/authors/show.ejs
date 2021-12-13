@@ -1,0 +1,30 @@
+
+<section class="footer-contact-area section_padding_100 clearfix" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 mx-auto">
+        <div class="logo mb-3">
+          <div class="col-md-12 text-center">
+            <h2 class="purple mt-40">تم إضافة هذا المطوّر</h2>
+          </div>
+        </div>
+<center>
+  <h2 class=""><%= author.name %></h2>
+  </center>
+
+  <div class="btn btn-row">
+    <a class="btn submit-btn mb-15" href="/authors/<%= author.id %>/edit">تعديل</a>
+    </div>
+    <div class="btn btn-row">
+    <%- include('../partials/deleteForm',
+                { url: `/authors/${author.id}` }) %>
+      </div>
+
+<% if (booksByAuthor.length > 0) { %>
+  <%- include('../partials/bookGrid', { books: booksByAuthor }) %>
+<% } %>
+</div>
+
+</div>
+</div>
+</section>

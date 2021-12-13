@@ -1,0 +1,96 @@
+
+.formFormat {
+
+    font-size: 18px;
+
+    padding: 10px 10px;
+    width:inherit;
+
+    border-radius: 25px 25px 25px 0;
+
+}
+.our_message{
+  background: #a865e1;
+
+  background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
+
+  background: -webkit-linear-gradient(right, #7873ed, #a865e1);
+
+  background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
+
+  background: -o-linear-gradient(right, #7873ed, #a865e1);
+
+  background: linear-gradient(to left, #7873ed, #a865e1);
+
+}
+.link{
+  color:#a865e1;
+}
+.link:visited{
+  color:#7873ed;
+}
+.link:hover{
+  color:#fb397d;
+}
+.link:active{
+  color:white;
+}
+/*later we put it on additional.css*/
+.form-popup_sm {
+  display: none;
+  position: fixed;
+  top: 80px;
+  right: 5%;
+  border: 3px solid #dddddd;
+  z-index: 9;
+}
+.formLabelFormat{
+  font-size: 18px;
+
+  padding: 10px 10px;
+}
+.border_left{
+  border-left: 1px solid #ddd !important
+}
+.position_sticky{
+
+
+  position: sticky;
+
+  top: 100;
+
+
+}
+.aboutus_img{
+  border-radius:100%;
+  background-color: #f5f9fc;
+  width:90px;
+  height:90px;
+  margin: 5px;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+.aboutus_img:hover{
+  background-color:#fb397d;
+}
+.aboutus_img_active{
+  background-color:#fb397d;
+}
+.about-us{
+  background: #f5f9fc;
+}
+.mp{
+  color:#f5f9fc;
+}
+.hidden{
+  display: none;
+}
+aside{
+  position:sticky;
+  top: 20px;
+}
+.circular{
+  border-radius: 100%;
+  width:200px;
+}
